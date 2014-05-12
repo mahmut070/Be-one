@@ -1,0 +1,130 @@
+// *************************************
+//
+//   Utilities
+//   -> Single purpose declarations
+//
+// *************************************
+
+// -------------------------------------
+// Micro utilities
+// -------------------------------------
+
+.u-cf {
+  @include clearfix;
+}
+
+.u-hide {
+  display: none;
+}
+
+// -------------------------------------
+// Layout
+// -------------------------------------
+
+.u-layoutBlock {
+  display: block;
+}
+
+.u-layoutFullWidth {
+  width: 100%;
+}
+
+
+
+// -------------------------------------
+// Grid
+// -------------------------------------
+
+.u-gridContainer {
+  @include outer-container;
+  padding-left: $l-insideGutter;
+  padding-right: $l-insideGutter;
+}
+
+.u-gridRow {
+  @include row();
+}
+
+.u-gridColumn3 {
+  @include span-columns(3);
+  @media screen and (max-width: 980px){
+      @include span-columns(12);
+    }
+}
+
+.u-gridColumn4 {
+  @include span-columns(4);
+  @media screen and (max-width: 980px){
+      @include span-columns(12);
+    }
+}
+.u-gridColumn6 {
+  @include span-columns(6);
+  @media screen and (max-width: 980px){
+      @include span-columns(12);
+    }
+}
+.u-gridColumn5 {
+  @include span-columns(5);
+}
+
+.u-gridColumn7 {
+  @include span-columns(7);
+  @media screen and (max-width: 980px){
+      @include span-columns(12);
+    }
+}
+
+.u-gridColumn8 {
+  @include span-columns(8);
+  @media screen and (max-width: 980px){
+      @include span-columns(12);
+    }
+}
+
+.u-gridColumn9 {
+  @include span-columns(9);
+  @media screen and (max-width: 980px){
+      @include span-columns(12);
+    }
+}
+
+// -------------------------------------
+// Text
+// -------------------------------------
+
+.u-textShout {
+  text-transform: uppercase;
+}
+
+.u-textFat {
+  font-weight: bold;
+}
+
+.u-textLead {
+  font-size: 125%;
+}
+
+.u-textRight {
+  text-align: right;
+}
+
+.u-textCenter {
+  text-align: center;
+}
+
+.u-textLeft {
+  text-align: left;
+}
+
+// -------------------------------------
+// Objects
+// -------------------------------------
+
+.u-objLeft {
+  float: left;
+}
+
+.u-objRight {
+  float: right;
+}
