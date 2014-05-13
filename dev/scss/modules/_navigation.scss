@@ -6,6 +6,7 @@
 // *************************************
 
 .Navigation {
+  font-size: 12px;
   text-align: center;
 }
 
@@ -38,7 +39,6 @@
 // -------------------------------------
 
 // ----- List item ----- //
-
 .Navigation-listItem {
   display: inline;
   margin: 0 rem(15px);
@@ -54,11 +54,19 @@
 
 .Navigation-link {
   text-transform: uppercase;
+  color: $c-darkgray; 
+  font-size: 12px; 
+
+
 }
 
 .Navigation-link--invertedBold {
   color: $c-white; 
   font-weight: bold;
+}
+
+.Navigation-img{
+  // top: 2.5rem;
 }
 
 

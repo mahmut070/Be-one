@@ -38,8 +38,13 @@
     <header class="Header">
         <div class="Header-topbar">
             <div class="u-gridContainer">
-                 
+                <div class="Navigation">
                      <?php include_once('includes/navigation.php'); ?>
+                <!-- <div class="Navigation-img">
+                     <img src="http://placekitten.com/25/25">
+                </div> -->
+                </div>
+                
             </div>
         </div>
         <div class="Header-tagline">
