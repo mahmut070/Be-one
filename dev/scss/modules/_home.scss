@@ -1,4 +1,4 @@
-.Home--text{
+.Home{
 	position: relative;
 	background-color: $c-blue;
 	margin-top: 1em;
@@ -11,12 +11,19 @@
 }
 
 
-.Home--img{
+.Home-link{
 	border: 10px solid $c-white;
 	width: 150px;
 	height: 85px;
-	margin-right: auto;
-	margin-left: auto;
+	border-radius: 50%;
+	display: table;
+	position: relative;
+	margin: 0 auto;
+	background: $c-white;
+	padding: 2rem;
+	// top: 2.5rem;
+	border-radius: 50%;
+
 }
 
 // .Home-img{

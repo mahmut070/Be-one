@@ -5,7 +5,7 @@ Template Name: Home template
 ?>
 
 <?php get_header(); ?>
-<div class="Home--text">
+<div class="Home">
 	<div class="u-gridContainer">
 		<div class="u-gridColumn10">
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -14,15 +14,13 @@ Template Name: Home template
 				<div>
 					<?php the_content(); ?>
 					<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
+					
 				</div>
 			</article>
 				<?php endwhile; endif; ?>
 		</div>
 	</div>
-</div>
-
-<div class="Home--img">
-	<img src="http://placekitten.com/150/75">
+  <a href="#" class="Home-link">Aanmelden</a>
 </div>
 
 <div class="Usp">
@@ -47,10 +45,7 @@ Template Name: Home template
 		<div>
 	</div>
 </div>
-
-
-		
-
+</div>
 
 
 <?php get_footer(); ?>

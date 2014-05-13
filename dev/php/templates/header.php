@@ -39,7 +39,7 @@
         <div class="Header-topbar">
             <div class="u-gridContainer">
                  
-                    <?php include 'includes/navigation.php'; ?>
+                     <?php include_once('includes/navigation.php'); ?>
             </div>
         </div>
         <div class="Header-tagline">

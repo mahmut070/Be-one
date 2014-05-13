@@ -58,6 +58,8 @@
 
 @import "modules/navigation";
 
+@import "modules/usp";
+
 @import "modules/home";
 
 @import "modules/table";
@@ -73,14 +75,18 @@ div.u-gridColumn6:nth-child(3) > ul:nth-child(1){
 
 
 
-.Usp{
-	text-align: center;
-	// font-weight: 600;
-	color: $c-darkblue;
-	background-color: $c-gray;
-}
 
-.Usp--text{
-	font-size: rem(30px);
+
+.Logo {
+  position: relative;
+  z-index: 100;
+  width: 140px;
+  padding: 0;
+
+  img {
+    position: absolute;
+    bottom: -53px;
+    left: 0;
+  }
 }
 
