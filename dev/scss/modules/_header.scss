@@ -6,8 +6,8 @@
 // *************************************
 
 .Header {
-  background-image: url("../img/golf-7.jpg");
-  background-size: cover;
+  // background-image: url("../img/golf-7.jpg");
+  // background-size: cover;
   padding-bottom: 2em;
 }
 
@@ -50,7 +50,7 @@
   // margin-bottom: 14rem;
   // padding-bottom : $l-whiteSpace;
   // padding-top    : $l-whiteSpace;
-  margin-bottom: 12rem;
+  // margin-bottom: 12rem;
   background: $c-white;
   background-color: $c-white;
 }
@@ -58,7 +58,17 @@
 
 .Header-tagline{
   color: $c-white;
-  text-align: right;
-  // padding: 10px;
+  // text-align: right;
+  // padding: 10px; 
 
 }
+
+.Header-tag{
+  display:inline;
+  background-color: rgba($c-blue, 0.5); ;
+}
+.Header-tag2{
+  display:inline;
+  background-color: rgba($c-blue, 0.5); ;
+}
+

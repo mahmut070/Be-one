@@ -25,6 +25,10 @@
 
     <!-- Include only one concatenated stylesheet here, minified -->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/production.min.css">
+    
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico">
+
 
     <!-- Head scripts, avoid including scripts here -->
     <!-- Don't forget to compile and minify the used modernizr features, or to remove it when unused -->
@@ -38,19 +42,33 @@
     <header class="Header">
         <div class="Header-topbar">
             <div class="u-gridContainer">
-                <div class="Navigation">
-                     <?php include_once('includes/navigation.php'); ?>
-                <!-- <div class="Navigation-img">
-                     <img src="http://placekitten.com/25/25">
-                </div> -->
-                </div>
+                <?php include_once('includes/navigation.php'); ?>
+                <svg class="Icon Icon--alone" viewBox="0 0 128 128">
+                    <use xlink:href="#icon-facebook2"></use>
+                </svg>
+                <svg class="Icon Icon--alone2" viewBox="0 0 128 128">
+                    <use xlink:href="#icon-googleplus3"></use>
+                </svg>
+            </div>
+            <div class="Slider">
+                <ul class="Slider-slider bxslider">     
+                    <li class="Slider-img"><img src="/files/2014/05/Army_National_Guard_motorcycle_riders.jpg" /></li>
+                    <li><img src="/files/2014/05/dscf1953.jpg" /></li>
+                </ul>
+            </div>
+        </div>
                 
-            </div>
-        </div>
-        <div class="Header-tagline">
+
+        <!-- <div class="Header-tagline">
+
             <div class="u-gridContainer">
-                <h5>Haal uw autorijbewijs bij Be One Autorijschool</h5>
-                <h5>Met gratis proefles!</h5>
+
+                <div class="Header-tag-1">
+                    <h5 class="Header-tag">Haal uw autorijbewijs bij Be One Autorijschool</h5>
+                <div>
+                <div class="Header-tag-2">
+                    <h5 class="Header-tag2">Met gratis proefles!</h5>
+                </div>
             </div>
-        </div>
+        </div> -->
    </header>

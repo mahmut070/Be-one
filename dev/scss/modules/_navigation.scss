@@ -8,6 +8,8 @@
 .Navigation {
   font-size: 12px;
   text-align: center;
+  display: inline-block;
+  margin-left: 1.5em;
 }
 
 // -------------------------------------
@@ -67,6 +69,13 @@
 
 .Navigation-img{
   // top: 2.5rem;
+}
+
+.Navigation-menuToggle{
+
+  @include media(980px){
+    display: none;
+  }
 }
 
 

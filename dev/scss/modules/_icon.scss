@@ -24,7 +24,29 @@
   padding-bottom: 0.2em;
 }
 
-.Icon--alone {}
+.Icon--alone {
+	height: 1rem;
+	width: 1rem;
+	vertical-align: middle;
+	margin-left: 2em;
+}
+
+.Icon--alone2{
+	height: 1rem;
+	width: 1rem;
+	vertical-align: middle;
+	margin-left: 2em;
+}
+
+.icon-usp{	
+	height: 2rem;
+	width: 2rem;
+	vertical-align: middle;
+	// margin-left: 2em;
+
+}
+
+
 
 // -------------------------------------
 // States

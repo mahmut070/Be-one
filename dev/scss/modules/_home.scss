@@ -12,6 +12,8 @@
 
 
 .Home-link{
+  	text-transform: uppercase;
+  	background-clip: padding-box;
 	border: 10px solid $c-white;
 	width: 150px;
 	height: 85px;
@@ -19,10 +21,12 @@
 	display: table;
 	position: relative;
 	margin: 0 auto;
-	background: $c-white;
+	color: $c-white;
 	padding: 2rem;
+	background-color: $c-darkblue;
 	// top: 2.5rem;
 	border-radius: 50%;
+
 
 }
 
