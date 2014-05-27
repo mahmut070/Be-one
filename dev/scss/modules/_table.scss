@@ -6,8 +6,51 @@
 // *************************************
 
 .Table {
-  text-transform: uppercase;
+
+  width: 100%;
+  font-family: $t-fontFamily;
+  background-color: rgba(234, 242, 248, 0.5);
+  margin: 25px auto;
+  border-collapse: collapse;
+  border: 1px solid #eee;
+  border-bottom: 2px solid $c-blue;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.10),
+     0px 10px 20px rgba(0,0,0,0.05),
+     0px 20px 20px rgba(0,0,0,0.05),
+     0px 30px 20px rgba(0,0,0,0.05);
+
+  tr {
+     &:hover {
+      background: #FEFEFE;
+      
+      td {
+  		color: $c-darkgray;
+      }
+    }
+  }
+  th, td {
+  	color: $c-darkgray;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+    text-align: left !important;
+  }
+  th {
+    background: #00cccc;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    &.last {
+      border-right: none;
+    }
+  }
 }
+
+.Table-link{
+	color: $c-blue;
+}
+
+
 
 // -------------------------------------
 // Module specific variables
@@ -20,7 +63,7 @@
 // -------------------------------------
 
 .Table--invertedBold {
-  color: $c-white;
+  color: $c-black;
   font-weight: bold;
 }
 
@@ -40,6 +83,6 @@
 // Submodules
 // -------------------------------------
 
-.Table-heading {
-  padding-bottom: $l-whiteSpace;
+.Table-title {
+  padding-bottom: 10px;
 }

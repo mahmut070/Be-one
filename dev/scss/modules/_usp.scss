@@ -30,7 +30,11 @@
 	margin-top: 1em;
 	@include span-columns(3);
 	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
 }
+
+
 
 .Usp-under{
 	background-color: $c-white;
@@ -39,4 +43,8 @@
 
 .Usp ul{
 	margin-left: 11em;
+}
+
+.Usp-title{
+	min-height: 3em;
 }

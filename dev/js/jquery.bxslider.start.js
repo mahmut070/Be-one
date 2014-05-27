@@ -10,7 +10,7 @@ jQuery(document).ready(function($){
 	  slideMargin: 0,
 	  // captions: true,
 	  pause: 3000,
-	  auto: true,
+	  auto: true, 
 	  speed: 1500,
 	  infiniteLoop: true,
 	  hideControlOnEnd: true,

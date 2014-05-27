@@ -3,7 +3,7 @@
 	@include row();
 	position: relative;
 	// background-color: red;
-	height: 23em;
+	height: 30em;
 
 	.bx-viewport {
 	    background-color: inherit;
@@ -23,10 +23,14 @@
 // }
 
 .Slider-slider{
-	height: 24em;
+	height: 31em;
 	overflow: hidden;
 
 }
+
+// .Slider-image{
+// 	padding-bottom: 2000px;	
+// }
 
 // .Slider img {
 // 	width: 100%;
@@ -61,7 +65,7 @@
 	text-align: center;
 	// padding-bottom: 50px;
 	max-height: 350px;
-
+	
 	// height: rem(250px);
 	
 
@@ -69,12 +73,15 @@
 
 
 .Slider-heading > p{
-	padding: 0;
+	padding-left: 10px;
+	padding-right: 10px;
 	font-size: 25px;
+	color: $c-white;
+	background-color: rgba($c-blue, 0.3);
+
 	@media screen and(max-width: 600px){
 		font-size: rem(14px);
 	}			
-	color: $c-white;
 }
 
 
@@ -83,4 +90,10 @@
    padding: 0;
 	font-size: 40px;
    font-family: $t-fontFamily;
+}
+
+.Slider-heading{
+	position: absolute;
+	z-index: 999999;
+
 }

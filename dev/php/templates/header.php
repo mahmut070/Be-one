@@ -43,21 +43,35 @@
         <div class="Header-topbar">
             <div class="u-gridContainer">
                 <?php include_once('includes/navigation.php'); ?>
-                <svg class="Icon Icon--alone" viewBox="0 0 128 128">
-                    <use xlink:href="#icon-facebook2"></use>
-                </svg>
-                <svg class="Icon Icon--alone2" viewBox="0 0 128 128">
-                    <use xlink:href="#icon-googleplus3"></use>
-                </svg>
+                <a href="https://nl-nl.facebook.com/AutorijschoolBeOne">
+                    <svg class="Icon Icon--alone" viewBox="0 0 128 128">
+                        <use xlink:href="#icon-facebook2"></use>
+                    </svg>
+                </a>
+
+                <a href="https://plus.google.com/104862056526891610103/posts">
+                    <svg class="Icon Icon--alone2" viewBox="0 0 128 128">
+                        <use xlink:href="#icon-googleplus3"></use>
+                    </svg>
+                </a>
             </div>
+            
+
             <div class="Slider">
+                    <h4 class="Slider-heading">
+                        <p class="Slider-text">Haal uw autorijbewijs bij Be One Autorijschool</p>
+                        <p class="Slider-text">Les in een Golf 7</p>
+                        <p class="Slider-text">Met gratis proefles</p>
+                    </h4>
                 <ul class="Slider-slider bxslider">     
-                    <li class="Slider-img"><img src="/files/2014/05/Army_National_Guard_motorcycle_riders.jpg" /></li>
-                    <li><img src="/files/2014/05/dscf1953.jpg" /></li>
+                    <li class="Slider-image"><img src="/files/2014/05/IMG_10152.jpg" /></li>
+                    <li class="Slider-img"><img src="/files/2014/05/IMG_10161.jpg" /></li>
+                    <li class="Slider-img"><img src="/files/2014/05/IMG_10171.jpg" /></li>
                 </ul>
             </div>
         </div>
                 
+
 
         <!-- <div class="Header-tagline">
 

@@ -54,7 +54,7 @@ Template Name: Home template
 			<svg class="Icon Icon--usp" viewBox="0 0 128 128">
 			<use xlink:href="#icon-user"></use>
 			</svg>
-			<p>Persoonlijke instructeur</p>
+			<h3 class="Usp-title">Persoonlijke instructeur</h3>
 			<p>Kies een pakket en je krijgt bij Be-One een persoonlijke instructeur tijdens de opleiding</p>
 		</div>
 
@@ -62,7 +62,7 @@ Template Name: Home template
 			<svg class="Icon Icon--usp" viewBox="0 0 128 128">
 			<use xlink:href="#icon-key"></use>
 			</svg>
-			<p>Rijexamen</p>
+			<h3 class="Usp-title">Rijexamen</h3>
 			<p>Bij Be-One vragen wij pas het rijexamen aan wanneer we er zeker van zijn dat de leerling alles beheerst. Hierdoor is de kans hoog dat het rijbewijs in een keer wordt behaald </p>
 		</div>
 
@@ -70,11 +70,14 @@ Template Name: Home template
 			<svg class="Icon Icon--usp" viewBox="0 0 128 128">
 			<use xlink:href="#icon-users"></use>
 			</svg>
-			<p>Passend pakket</p>
+			<h3 class="Usp-title">Passend pakket</h3>
 			<p>Bij Be-One kijken wij naar alles tijdens de introductieles. Elke leerling krijgt een passend pakket aangemeten, waardoor het rijbewijs het snelste behaald wordt</p>
 		</div>
 	</div>
 </div>
+<div class="Facebook">
+	<div class="u-gridContainer">
+<div class="fb-like-box" data-href="https://www.facebook.com/AutorijschoolBeOne" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false"></div></div>
 
 <!-- <div class="Customers">
 	<div class="u-gridContainer">

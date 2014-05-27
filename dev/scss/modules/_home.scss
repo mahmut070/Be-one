@@ -26,6 +26,16 @@
 	background-color: $c-darkblue;
 	// top: 2.5rem;
 	border-radius: 50%;
+ 	
+	-webkit-duration: .3s;
+	-moz-duration: .3s;
+	-o-duration: .3s;
+	transition-duration: .3s;
+
+  &:hover{
+    // background: $c-lightyellow;
+   background: $c-blue;
+   }
 
 
 }

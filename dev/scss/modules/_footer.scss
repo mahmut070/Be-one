@@ -1,0 +1,21 @@
+.Footer {
+	background-color: $c-white;
+	text-align: center;
+ 	border-bottom: 5px solid $c-blue;
+ 	border-top: 5px solid $c-blue;
+	.widget {
+		@include span-columns(4);
+		@media screen and(max-width: 600px){
+			@include span-columns(12);
+		}
+	}
+
+	.widgettitle{
+		color:black;
+  		font-size: rem(20px);
+	}
+}
+.Footer-text{
+padding: 17px;
+border-top: 1px solid $c-blue;
+}
