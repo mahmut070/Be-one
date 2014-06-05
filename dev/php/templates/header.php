@@ -45,7 +45,7 @@
   <body <?php body_class(); ?> >
     <header class="Header">
         <div class="Header-topbar">
-            <!-- <div class="u-gridContainer"> -->
+            <div class="u-gridContainer">
                 <?php include_once('includes/navigation.php'); ?>
                     <!-- <a class="Navigation-menuToggle" id="js-navToggle">Menu</a> -->
                     <a href="https://nl-nl.facebook.com/AutorijschoolBeOne">
