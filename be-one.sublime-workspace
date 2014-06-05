@@ -80,50 +80,26 @@
 	"buffers":
 	[
 		{
-			"file": "dev/scss/modules/_button.scss",
+			"file": "dev/scss/modules/_home.scss",
 			"settings":
 			{
-				"buffer_size": 3434,
+				"buffer_size": 1224,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "dev/js/jquery.bxslider.start.js",
+			"file": "dev/scss/core/_settings.scss",
 			"settings":
 			{
-				"buffer_size": 353,
+				"buffer_size": 1026,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "dev/php/templates/template-home.php",
+			"file": "dev/scss/modules/_header.scss",
 			"settings":
 			{
-				"buffer_size": 4136,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dev/scss/modules/_usp.scss",
-			"settings":
-			{
-				"buffer_size": 1541,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dev/scss/modules/_slider.scss",
-			"settings":
-			{
-				"buffer_size": 1816,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dev/scss/modules/_logo.scss",
-			"settings":
-			{
-				"buffer_size": 1389,
+				"buffer_size": 1420,
 				"line_ending": "Unix"
 			}
 		},
@@ -131,23 +107,39 @@
 			"file": "dev/php/templates/header.php",
 			"settings":
 			{
-				"buffer_size": 4782,
+				"buffer_size": 5057,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "dev/scss/modules/_home.scss",
+			"file": "dev/scss/core/_utilities.scss",
 			"settings":
 			{
-				"buffer_size": 928,
+				"buffer_size": 2011,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "dev/scss/global.scss",
+			"file": "dev/scss/modules/_navigation.scss",
 			"settings":
 			{
-				"buffer_size": 2217,
+				"buffer_size": 2025,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/php/templates/template-home.php",
+			"settings":
+			{
+				"buffer_size": 4445,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/php/templates/prijzen.php",
+			"settings":
+			{
+				"buffer_size": 4900,
 				"line_ending": "Unix"
 			}
 		}
@@ -188,26 +180,33 @@
 	},
 	"file_history":
 	[
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_table.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/header.php",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_footer.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/contact.php",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_contact.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/global.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_usp.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/template-home.php",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_header.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_slider.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_button.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/js/jquery.bxslider.js",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/js/ga.js",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_home.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/core/_settings.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_icon.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/js/jquery.bxslider.start.js",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/header.php",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_logo.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/util/grunt/rsync.js",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/includes/navigation-walker.php",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/js/nav-collapse.js",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/global.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_icon.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_home.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_usp.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_slider.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/header.php",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_header.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/core/_base.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/core/_settings.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_navigation.scss",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/js/src/nav-collapse.js",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_footer.scss",
-		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/header.php",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/util/grunt/ftpush.js",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/Gruntfile.js",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_logo.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/template-home.php",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/util/grunt/watch.js",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/be-one.sublime-project",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_icon.scss",
@@ -216,13 +215,9 @@
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/util/grunt/autoprefixer.js",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_price.scss",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_button.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/js/jquery.bxslider.start.js",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/prijzen.php",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_header.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_button.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_table.scss",
 		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/php/header.php",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/contact.php",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/page.php",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/js/facebook.js",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/footer.php",
@@ -231,7 +226,6 @@
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_slider.scss",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-home.php",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_customers.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/js/jquery.bxslider.js",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/js/src/jquery.bxslider.js",
 		"/Users/bennovanassen/Desktop/Projects/Honders/slate_honders/dev/php/templates/template-home.php",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/js/prepend-svg.js",
@@ -313,9 +307,7 @@
 		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/php/template-24uur.php",
 		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_offer.scss",
 		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/libs/responsive-nav/_responsive-nav.scss",
-		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/core/_base.scss",
-		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_call.scss",
-		"/Users/bennovanassen/Desktop/responsive-nav.js-master/demos/advanced-left-navigation/styles.css"
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/core/_base.scss"
 	],
 	"find":
 	{
@@ -334,6 +326,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"15",
+			"contactbar",
+			"small",
 			"width",
 			"ftpush",
 			"absolute",
@@ -425,30 +420,29 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "dev/scss/modules/_button.scss",
+					"file": "dev/scss/modules/_home.scss",
 					"settings":
 					{
-						"buffer_size": 3434,
+						"buffer_size": 1224,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2159,
-								2159
+								285,
+								295
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -458,24 +452,23 @@
 				},
 				{
 					"buffer": 1,
-					"file": "dev/js/jquery.bxslider.start.js",
+					"file": "dev/scss/core/_settings.scss",
 					"settings":
 					{
-						"buffer_size": 353,
+						"buffer_size": 1026,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								260,
-								260
+								528,
+								534
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -485,99 +478,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "dev/php/templates/template-home.php",
+					"file": "dev/scss/modules/_header.scss",
 					"settings":
 					{
-						"buffer_size": 4136,
+						"buffer_size": 1420,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2332,
-								2332
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "dev/scss/modules/_usp.scss",
-					"settings":
-					{
-						"buffer_size": 1541,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								515,
-								540
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 277.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "dev/scss/modules/_slider.scss",
-					"settings":
-					{
-						"buffer_size": 1816,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1459,
-								1459
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1274.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "dev/scss/modules/_logo.scss",
-					"settings":
-					{
-						"buffer_size": 1389,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								523,
-								523
+								929,
+								929
 							]
 						],
 						"settings":
@@ -587,25 +499,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 343.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 3,
 					"file": "dev/php/templates/header.php",
 					"settings":
 					{
-						"buffer_size": 4782,
+						"buffer_size": 5057,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2915,
-								2915
+								2381,
+								2381
 							]
 						],
 						"settings":
@@ -615,52 +527,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 306.0,
+						"translation.y": 653.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "dev/scss/modules/_home.scss",
+					"buffer": 4,
+					"file": "dev/scss/core/_utilities.scss",
 					"settings":
 					{
-						"buffer_size": 928,
+						"buffer_size": 2011,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								439,
-								439
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "dev/scss/global.scss",
-					"settings":
-					{
-						"buffer_size": 2217,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1772,
-								1772
+								0,
+								0
 							]
 						],
 						"settings":
@@ -670,7 +555,89 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 179.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "dev/scss/modules/_navigation.scss",
+					"settings":
+					{
+						"buffer_size": 2025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1021,
+								1021
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 628.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "dev/php/templates/template-home.php",
+					"settings":
+					{
+						"buffer_size": 4445,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1051,
+								1028
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "dev/php/templates/prijzen.php",
+					"settings":
+					{
+						"buffer_size": 4900,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1331,
+								1331
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -757,7 +724,7 @@
 		[
 			[
 				"",
-				"/Users/bennovanassen/Desktop/Projects/Sublime/rijschoolcompleet.sublime-project"
+				"/Users/bennovanassen/Desktop/Projects/Sublime/honders.sublime-project"
 			]
 		],
 		"width": 380.0

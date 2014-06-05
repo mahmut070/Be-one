@@ -27,7 +27,9 @@
 // -------------------------------------
 
 .Navigation-link.is-active {
-  text-decoration: underline;
+  // text-decoration: underline;
+  background: rgba($c-blue, 0.8);
+  color: $c-white;
 }
 
 // -------------------------------------
@@ -43,7 +45,7 @@
 // ----- List item ----- //
 .Navigation-listItem {
   display: inline;
-  margin: 0 rem(15px);
+  // margin: 0 rem(15px);
   &:first-of-type {
     margin-left: 0;
   }
@@ -59,6 +61,7 @@
   color: $c-darkblue; 
   font-size: 1em; 
   font-weight: 600;
+  padding: 10px 13px;
   
   @media screen and (max-width : 980px) {
   display: block; 
@@ -77,6 +80,7 @@
     // background: $c-lightyellow;
    background: rgba($c-blue, 0.8);
    color: $c-white;
+   text-decoration: none;
    }
 
 }
