@@ -22,48 +22,94 @@
   width: 1em;
   vertical-align: middle;
   padding-bottom: 0.2em;
+  // margin-left: 7rem; 
+  
 }
+
+
 
 .Icon--alone {
 	height: 1rem;
 	width: 1rem;
-	vertical-align: middle;
+	// vertical-align: middle;
 	margin-left: 2em;
+	fill: #8B9DC3; 
+	@media screen and (max-width: 980px) {
+	display: none;
+	}
 }
 
 .Icon--alone2{
 	height: 1rem;
 	width: 1rem;
-	vertical-align: middle;
+	// vertical-align: middle;
 	margin-left: 2em;
+	fill: #d34836;
+	@media screen and (max-width: 980px) {
+	display: none;
+	}
 }
 
-.icon-usp{	
-	height: 2rem;
-	width: 2rem;
+.icon--usp{	
+	fill: $c-white;
+	height: 60%;
+	width: 60%;
 	vertical-align: middle;
+	@media screen and (max-width: 980px) {
+	display: none;
+	}
 	// margin-left: 2em;
 
 }
+.Usp-block svg{
+	@media screen and (max-width: 980px) {
+	display: none;
+	}
+}
+.icon-check{
+	 // background-image: url('/files/2014/05/check.png');
+	 list-style-image: url('/files/2014/06/check.png');
+
+}
+
+.icon-price{
+	 // background-image: url('/files/2014/05/check.png');
+	 list-style-image: url('/files/2014/05/check.png');
+	 margin-left: 2em;
+
+}
+
+.Icon--usp{
+	margin-left: 1.5em;
+}
+
+.icon-phone {
+	list-style-image: url('/files/2014/06/phoneblue.png');
+}
+
+.icon-mail {
+	list-style-image: url('/files/2014/06/mailblue.png');
+}
+
+.icon-house {
+	list-style-image: url('/files/2014/06/homeblue.png');
+}
+
+.icon-globe {
+	list-style-image: url('/files/2014/06/globeblue.png');
+}
+
+.icon-pin {
+	list-style-image: url('/files/2014/06/pinblue.png');
+}
 
 
 
-// -------------------------------------
-// States
-// -------------------------------------
 
-// .is-module-state
 
-// -------------------------------------
-// Context
-// -------------------------------------
 
-// .has-module
 
-// -------------------------------------
-// Submodules
-// -------------------------------------
 
-// ----- Submodule ----- //
 
-// .Module-subModule
+
+

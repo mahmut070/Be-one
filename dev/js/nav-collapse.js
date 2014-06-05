@@ -15,6 +15,6 @@ $(function() {
       if(menu.is(':hidden')) {
         menu.removeAttr('style');
       }
-    });
+    })
   });
 });

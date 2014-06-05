@@ -8,7 +8,7 @@
 .Header {
   // background-image: url("../img/golf-7.jpg");
   // background-size: cover;
-  padding-bottom: 2em;
+  // padding-bottom: 2em;
 }
 
 
@@ -47,12 +47,16 @@
 
 .Header-topbar {
   @extend .u-gridRow;
+  margin-left: 14.5em;
   // margin-bottom: 14rem;
   // padding-bottom : $l-whiteSpace;
   // padding-top    : $l-whiteSpace;
   // margin-bottom: 12rem;
   background: $c-white;
   background-color: $c-white;
+  @media screen and (max-width: 980px) {
+    margin-left:0;
+  }
 }
 
 

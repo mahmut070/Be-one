@@ -56,9 +56,28 @@
 
 .Navigation-link {
   text-transform: uppercase;
-  color: $c-darkgray; 
-  font-size: 12px; 
+  color: $c-darkblue; 
+  font-size: 1.5em; 
+  font-weight: 600;
+  
+  @media screen and (max-width : 980px) {
+  display: block; 
+  border: 1px solid $c-blue; 
+  width: 21em;
+  font-size: 12px;
+  }
 
+  cursor: pointer;
+  -webkit-duration: .3s;
+  -moz-duration: .3s;
+  -o-duration: .3s;
+  transition-duration: .3s;
+
+  &:hover{
+    // background: $c-lightyellow;
+   background: rgba($c-blue, 0.8);
+   color: $c-white;
+   }
 
 }
 
@@ -66,16 +85,39 @@
   color: $c-white; 
   font-weight: bold;
 }
-
+ 
 .Navigation-img{
   // top: 2.5rem;
 }
 
-.Navigation-menuToggle{
 
-  @include media(980px){
-    display: none;
+
+// .Navigation-menuToggle{
+
+//   @include media(980px){
+//     display: none;
+//   }
+// }
+.Navigation-menuToggle {
+  font-size: 4em;
+  margin: auto;
+  display: block;
+  @media screen and (min-width : 980px) {
+  display: none;
   }
 }
+
+.Navigation-list.is-hidden {
+  display: none;
+}
+
+
+.Navigation-list--parent {
+  display: none;
+  @include media(780px) {
+    display: block;
+  }
+}
+
 
 

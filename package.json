@@ -19,6 +19,7 @@
     "grunt-mkdir": "^0.1.1",
     "grunt-exec": "^0.4.5",
     "grunt-prompt": "^1.1.0",
-    "grunt-attention": "0.0.4"
+    "grunt-attention": "0.0.4",
+    "grunt-rsync-2": "^0.1.3"
   }
 }

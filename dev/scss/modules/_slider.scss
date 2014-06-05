@@ -3,7 +3,22 @@
 	@include row();
 	position: relative;
 	// background-color: red;
-	height: 30em;
+	height: 21em;
+		@media screen and (max-width: 980px) {
+			height: 12em;
+			// margin-bottom: 9em;
+		}
+
+		@media screen and (max-width: 768px) {
+			height: 12em;
+			margin-bottom: 11em;
+		}
+
+		@media screen and (max-width: 760px) {
+			height: 12em;
+			margin-bottom: 0;
+		}
+ 
 
 	.bx-viewport {
 	    background-color: inherit;
@@ -23,7 +38,7 @@
 // }
 
 .Slider-slider{
-	height: 31em;
+	height: 20em;
 	overflow: hidden;
 
 }
@@ -78,9 +93,11 @@
 	font-size: 25px;
 	color: $c-white;
 	background-color: rgba($c-blue, 0.3);
+	margin-left: 10em;
 
-	@media screen and(max-width: 600px){
-		font-size: rem(14px);
+	@media screen and(max-width: 600px){ 
+	font-size: rem(14px);
+	margin-left: 0;	
 	}			
 }
 
@@ -92,8 +109,24 @@
    font-family: $t-fontFamily;
 }
 
+.Slider-text2{
+   padding: 0;
+	font-size: 40px;
+   font-family: $t-fontFamily;
+   	background-color: rgba($c-blue, 0.5) !important;
+
+}
+
+.Slider-textballoon{
+	padding: 0;
+	font-size: 40px;
+	font-family: $t-fontFamily;
+	// border-radius: 50%;
+	background-color: rgba($c-blue, 0.7) !important;
+}
+
 .Slider-heading{
 	position: absolute;
 	z-index: 999999;
-
+	
 }

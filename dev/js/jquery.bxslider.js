@@ -42,6 +42,7 @@
 		oneToOneTouch: true,
 		preventDefaultSwipeX: true,
 		preventDefaultSwipeY: false,
+		
 
 		// PAGER
 		pager: true,

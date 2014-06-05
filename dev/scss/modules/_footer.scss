@@ -1,5 +1,5 @@
 .Footer {
-	background-color: $c-white;
+	background-color: $c-lightgray;
 	text-align: center;
  	border-bottom: 5px solid $c-blue;
  	border-top: 5px solid $c-blue;
@@ -7,12 +7,13 @@
 		@include span-columns(4);
 		@media screen and(max-width: 600px){
 			@include span-columns(12);
+			margin-left: 1em;
 		}
 	}
 
 	.widgettitle{
-		color:black;
-  		font-size: rem(20px);
+	color: $c-blue;
+	font-size: rem(20px);
 	}
 }
 .Footer-text{

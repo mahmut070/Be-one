@@ -15,7 +15,7 @@ function navigation_walker_setup2(){
       function start_el( &$output, $item, $depth = 0, $args = array(), $id = 0 ) {
 
         if($this->counter == 4 && $depth == 0){
-          $output .= '<li class="Logo"><img src="'.get_stylesheet_directory_uri().'/img/logo.png" class="Logo-img"/></li>';
+          $output .= '<li class="Logo"><a href="/home"><img src="'.get_stylesheet_directory_uri().'/img/logo.png" class="Logo-img"/></a></li>';
         }
 
         if($depth == 0)

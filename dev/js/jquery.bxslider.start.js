@@ -14,6 +14,7 @@ jQuery(document).ready(function($){
 	  speed: 1500,
 	  infiniteLoop: true,
 	  hideControlOnEnd: true,
+	  touchEnabled:false,
 	  pager: false
 	});
 });

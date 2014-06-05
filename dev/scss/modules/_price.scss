@@ -1,0 +1,80 @@
+.Price{
+	// padding: 5px;
+	margin:  auto;
+	margin-top: 1em;
+	@include span-columns(3);
+	display: inline-block;
+	// margin-left: 10px;
+	// margin-right: 10px;
+	border: 2px solid $c-blue;
+	margin-bottom: 3em;
+
+	@media screen and (max-width: 768px){
+		@include span-columns(12);
+	}
+	
+}
+
+.Price-line{
+	border: 1px solid $c-white;
+	margin: 0;
+}
+.Price-title{
+	color: $c-darkblue;
+	text-align: center;
+	padding: 1em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: $c-lightgray;
+}
+
+.Price-text{
+	padding: 5px;
+}
+
+.Price-price{
+	color: $c-darkblue;
+
+	text-align: center;
+	padding: 1em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: $c-lightgray;
+
+}
+////////////////////////////PAKKET C///////////////////////////////
+
+.Price2{
+	// padding: 5px;
+	margin:  auto;
+	margin-top: 1em;
+	@include span-columns(3);
+	display: inline-block;
+	// margin-left: 10px;
+	// margin-right: 10px;
+	border: 2px solid $c-green;
+	
+	@media screen and (max-width: 768px){
+		@include span-columns(12);
+	}
+	
+}
+
+.Price-price2{
+	color: $c-white;
+	text-align: center;
+	padding: 1em;
+	margin-top: 0px;
+	margin-bottom: 0px; 
+	background-color: $c-green;
+
+}
+
+.Price-title2{
+	color: $c-white;
+	text-align: center;
+	padding: 1em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: $c-green;
+}

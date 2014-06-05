@@ -5,22 +5,17 @@
 			"folder_exclude_patterns":
 			[
 				"src",
-				"deploy",
 				".grunt",
 				".sass-cache",
 				"build",
 				"bower_components",
 				"node_modules",
-				"util",
 				".git"
 			],
 			"path": "/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one"
 		},
 		{
 			"path": "/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet"
-		},
-		{
-			"path": "/Users/bennovanassen/Desktop/Projects/Honders/slate_honders"
 		}
 	]
 }

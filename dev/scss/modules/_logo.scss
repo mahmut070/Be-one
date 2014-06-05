@@ -5,8 +5,39 @@
 //
 // *************************************
 
+
 .Logo {
   display: inline-block;
+  
+  position: relative;
+  z-index: 100;
+  width: 140px;  
+  padding: 0;
+
+  img {
+    position: absolute;
+    bottom: -67px;
+    left: 0;
+    @media screen and (max-width : 980px) {
+      // display: none;
+      bottom: 13em;
+      left: 10em;
+      max-width: 8em; 
+    }
+  }
+}
+
+ 
+
+.Logo-small{
+  position: absolute;
+  margin-left:11.7em;
+  top: -3px; 
+  max-width: 6em;
+  @media screen and (min-width : 980px) {
+  display: none;
+  // visibility: hidden; 
+  }
 }
 
 // -------------------------------------

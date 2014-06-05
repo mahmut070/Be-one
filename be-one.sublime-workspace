@@ -8,6 +8,22 @@
 				"text-decoration"
 			],
 			[
+				"margin",
+				"margin"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
 				"z-",
 				"z-index"
 			],
@@ -22,10 +38,6 @@
 			[
 				"aan",
 				"aanbiedingen"
-			],
-			[
-				"margin",
-				"margin"
 			],
 			[
 				"c",
@@ -68,6 +80,14 @@
 	"buffers":
 	[
 		{
+			"file": "dev/scss/modules/_button.scss",
+			"settings":
+			{
+				"buffer_size": 3434,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "dev/js/jquery.bxslider.start.js",
 			"settings":
 			{
@@ -76,66 +96,10 @@
 			}
 		},
 		{
-			"contents": "<!DOCTYPE html>\n<!--[if IE 6]>\n<html id=\"ie6\" <?php language_attributes(); ?>>\n<![endif]-->\n<!--[if IE 7]>\n<html id=\"ie7\" <?php language_attributes(); ?>>\n<![endif]-->\n<!--[if IE 8]>\n<html id=\"ie8\" <?php language_attributes(); ?>>\n<![endif]-->\n<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->\n<html <?php language_attributes(); ?>>\n<!--<![endif]-->\n<head prefix=\n    \"og: http://ogp.me/ns# \n     fb: http://ogp.me/ns/fb# \n     product: http://ogp.me/ns/product#\">\n<meta charset=\"<?php bloginfo( 'charset' ); ?>\" />\n\n<!--<title><?php is_home() ? bloginfo('description') : wp_title(''); ?></title>-->\n<title><?php wp_title('|', true, 'right'); ?></title>\n\n\n<!--Favicon-->\n<link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico\">\n\n<!--App icon-->\n\n<link rel=\"apple-touch-icon-precomposed\" href=\"<?php echo get_stylesheet_directory_uri(); ?>/img/app-icon.png\"/>  \n<link rel=\"apple-touch-startup-image\" href=\"<?php echo get_stylesheet_directory_uri(); ?>/img/app-icon.png\" /> \n\n\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">\n\n\n<link rel=\"profile\" href=\"http://gmpg.org/xfn/11\" />\n<link rel=\"pingback\" href=\"<?php bloginfo('pingback_url'); ?>\" />\n\n\n<!-- Typekit -->\n<script type=\"text/javascript\" src=\"//use.typekit.net/rul6zfw.js\"></script>\n<script type=\"text/javascript\">try{Typekit.load();}catch(e){}</script> \n\n<?php \nif ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' );\nwp_head();\n?>\n\n\n<link rel=\"stylesheet/less\" type=\"text/css\" href='<?php echo get_stylesheet_directory_uri(); ?>/addHome.css' />\n<script type='text/javascript' src='<?php echo get_stylesheet_directory_uri(); ?>/addHome.js'></script>\n\n\n\n\n<!--<link rel=\"stylesheet\" href=\"<?php bloginfo('stylesheet_url'); ?>\" type=\"text/css\" media=\"screen\" />-->\n<link rel=\"stylesheet/less\" type=\"text/css\" href=\"<?php echo get_stylesheet_directory_uri(); ?>/style.less\" />\n<script src=\"<?php echo get_template_directory_uri(); ?>/js/less-1.7.0.min.js\" type=\"text/javascript\"></script>\n<script src=\"<?php echo get_stylesheet_directory_uri(); ?>/js/manipulations.js\" type=\"text/javascript\"></script>\n<script type=\"text/javascript\" src=\"<?php echo get_stylesheet_directory_uri() ?>/js/ga.js\"></script>\n<script type=\"text/javascript\" src=\"<?php echo get_stylesheet_directory_uri() ?>/js/jquery.cycle.all.js\"></script>\n\n\n\n\n</head>\n\n<body <?php body_class(); ?> >\n\n<div class=\"product-added-popup\"></div>\n<div id=\"navigationbar\" >\n	<div class=\"container\" style=\"position: relative;\">\n		<div class=\"slogan\">De voordeligste afvalcontainer in uw regio!</div>\n		<div class=\"logo-wrap\">\n			<a href=\"/home\"><img src=\"<?php echo get_stylesheet_directory_uri(); ?>/img/logo.gif\" class=\"logo-image\" /></a>\n			<img src=\"<?php echo get_stylesheet_directory_uri(); ?>/img/020containerlogo.png\" class=\"logo-text\" />	\n		</div>\n		<div class=\"row-fluid\">\n			<div class=\"span12\">\n				<div class=\"navbar\">\n					<div class=\"navbar-inner\">\n						<a class=\"btn btn-navbar\" data-toggle=\"collapse\" data-target=\"#nav-trigger\">\n							<i class=\"icon-list icon-white\"></i>\n						</a>\n						<a class=\"btn btn-navbar\" data-toggle=\"collapse\" data-target=\"#shoppingcart\">\n							<i class=\"icon-shopping-cart icon-white\"></i>\n						</a>			\n						<div class=\"nav-collapse\" id=\"nav-trigger\">\n							<?php\n								$args = array(\n								'theme_location' => 'top-bar',\n								'depth'	=> 2,\n								'container'	=> false,\n								'menu_class' => 'nav pull-left',\n								'container_id'=>'nav-trigger',\n								'walker' => new Bootstrap_Walker_Nav_Menu()\n								);\n								wp_nav_menu($args);\n							?>\n						</div>\n						<div class=\"nav pull-right nav-collapse cart-collapse\" id=\"shoppingcart\"></div>	\n					</div>\n				</div>						\n			\n			</div>\n		</div>\n	</div>\n</div>\n\n\n<?php if (is_front_page() && false) { ?>\n<div id=\"header\">\n	<div class=\"container\">\n		\n		<div class=\"row-fluid\">\n			<div class=\"span12\">\n				<div id=\"myCarousel\" class=\"carousel slide\">\n					<div class=\"carousel-inner\">\n					<?php query_posts('post_type=slides&posts_per_page=-1&order=ASC'); ?>\n					<?php $n=0; if (have_posts()) : while (have_posts()) : the_post(); $n++; ?>\n						<div class=\"item <?php if($n==1) echo 'active' ?>\">\n							<div class=\"span8\">\n								<?php the_post_thumbnail(); ?>\n							</div>\n							\n							<div class=\"span4 slide-content\">\n								<h2><?php the_title(); ?></h2>\n								\n								<?php the_content(); ?>\n							</div>\n						</div>	\n					<?php endwhile; endif; wp_reset_query(); ?>\n					</div>\n					<!-- Carousel nav -->\n					<a class=\"carousel-control left\" href=\"#myCarousel\" data-slide=\"prev\">&lsaquo;</a>\n					<a class=\"carousel-control right\" href=\"#myCarousel\" data-slide=\"next\">&rsaquo;</a>\n				</div>\n				\n			</div><!-- 12 -->\n		</div><!-- row -->\n	</div><!-- container -->\n</div><!-- #header -->\n\n\n<?php } ?>\n\n<?php if (is_front_page()) { ?>\n<div id=\"home-slogan\" >\n	<div class=\"container\" style=\"position:relative; \" >\n		<div class=\"hero-phone \" >\n			<img src=\"<?php echo get_stylesheet_directory_uri(); ?>/img/phone.png\" />\n			<span class=\"phonenr\" style=\"\"><a href=\"tel:(0)35 - 693 11 09\">(0)35 - 693 11 09</a></span>\n		</div>\n		<div class=\"slogan-wrap\">\n			<h3 class=\"logo-title\">Welkom bij 020container.nl, de voordeligste bouwafvalcontainer in en uit uw regio. <br/>Vandaag voor 16:00 besteld, morgen op de stoep! <a href=\"/algemene-voorwaarden/\"><font color=\"B91E2A\">Lees hier de voorwaarden.</font></a></h3>\n		</div>\n\n	</div>\n</div>\n<?php } ?>\n\n",
+			"file": "dev/php/templates/template-home.php",
 			"settings":
 			{
-				"buffer_size": 5517,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dev/php/templates/page.php",
-			"settings":
-			{
-				"buffer_size": 453,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dev/scss/modules/_table.scss",
-			"settings":
-			{
-				"buffer_size": 1621,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dev/scss/modules/_home.scss",
-			"settings":
-			{
-				"buffer_size": 756,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dev/scss/global.scss",
-			"settings":
-			{
-				"buffer_size": 1772,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dev/scss/modules/_footer.scss",
-			"settings":
-			{
-				"buffer_size": 368,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dev/scss/core/_settings.scss",
-			"settings":
-			{
-				"buffer_size": 984,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dev/php/templates/contact.php",
-			"settings":
-			{
-				"buffer_size": 1723,
+				"buffer_size": 4136,
 				"line_ending": "Unix"
 			}
 		},
@@ -143,7 +107,47 @@
 			"file": "dev/scss/modules/_usp.scss",
 			"settings":
 			{
-				"buffer_size": 755,
+				"buffer_size": 1541,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/scss/modules/_slider.scss",
+			"settings":
+			{
+				"buffer_size": 1816,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/scss/modules/_logo.scss",
+			"settings":
+			{
+				"buffer_size": 1389,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/php/templates/header.php",
+			"settings":
+			{
+				"buffer_size": 4782,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/scss/modules/_home.scss",
+			"settings":
+			{
+				"buffer_size": 928,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/scss/global.scss",
+			"settings":
+			{
+				"buffer_size": 2217,
 				"line_ending": "Unix"
 			}
 		}
@@ -184,37 +188,54 @@
 	},
 	"file_history":
 	[
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/template-home.php",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/header.php",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/js/facebook.js",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/core/_settings.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_slider.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_header.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/footer.php",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_footer.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_usp.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/prijzen.php",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_table.scss",
-		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_table.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/util/grunt/rsync.js",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/includes/navigation-walker.php",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/js/nav-collapse.js",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/global.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_icon.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_home.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/index.php",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_usp.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_slider.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/header.php",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_header.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/core/_base.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/core/_settings.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_navigation.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/js/src/nav-collapse.js",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_footer.scss",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/header.php",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/util/grunt/ftpush.js",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/Gruntfile.js",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_logo.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/template-home.php",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/util/grunt/watch.js",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/be-one.sublime-project",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_icon.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_navigation.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/includes/navigation.php",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/util/grunt/autoprefixer.js",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_price.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_button.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/js/jquery.bxslider.start.js",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/prijzen.php",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_header.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_button.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_table.scss",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/php/header.php",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/contact.php",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/page.php",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/js/facebook.js",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/footer.php",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_table.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/index.php",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_slider.scss",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-home.php",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_customers.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_navigation.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/js/jquery.bxslider.js",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/js/src/jquery.bxslider.js",
 		"/Users/bennovanassen/Desktop/Projects/Honders/slate_honders/dev/php/templates/template-home.php",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/includes/navigation-walker.php",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/js/prepend-svg.js",
 		"/Users/bennovanassen/Desktop/Projects/Honders/slate_honders/dev/php/templates/header.php",
-		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/php/header.php",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_logo.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/includes/navigation.php",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/functions.php",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/core/_utilities.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/README.md",
@@ -224,15 +245,12 @@
 		"/Users/bennovanassen/Desktop/Projects/Honders/slate_honders/dev/scss/core/_utilities.scss",
 		"/Users/bennovanassen/Desktop/Projects/Honders/slate_honders/dev/scss/global.scss",
 		"/Users/bennovanassen/Desktop/Projects/Honders/slate_honders/dev/scss/modules/_equalheight.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/be-one.sublime-project",
 		"/Users/bennovanassen/Desktop/Projects/Honders/slate_honders/.git/config",
 		"/Users/bennovanassen/Desktop/Projects/Honders/slate_honders/util/grunt/ftpush.js",
 		"/Users/bennovanassen/Desktop/Projects/Honders/slate_honders/bower.json",
 		"/Users/bennovanassen/Desktop/Projects/Honders/slate_honders/package.json",
 		"/Users/bennovanassen/Desktop/Projects/Honders/slate_honders/.ftppass",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_offer.scss",
-		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_icon.scss",
-		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_button.scss",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/single-aanbieding.php",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/functions.php",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_comments.scss",
@@ -240,8 +258,6 @@
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/global.scss",
 		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/global.scss",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_contactbar.scss",
-		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_navigation.scss",
-		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/js/src/nav-collapse.js",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/js/src/dropdown.js",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-contact.php",
 		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_contactbar.scss",
@@ -299,23 +315,11 @@
 		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/libs/responsive-nav/_responsive-nav.scss",
 		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/core/_base.scss",
 		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_call.scss",
-		"/Users/bennovanassen/Desktop/responsive-nav.js-master/demos/advanced-left-navigation/styles.css",
-		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/.sass-cache/0a4fd79b8fb719a46caa90c282b31b7ffcb35303/_utilities.scssc",
-		"/Users/bennovanassen/Documents/Study/CSS/Responsive/responsive-text-2/final/index.html",
-		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_icon.scss",
-		"/Users/bennovanassen/Documents/Study/CSS/Responsive/responsive-text-2/final/style.css",
-		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/libs/_libs-override.scss",
-		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/js/src/responsive-nav.js",
-		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/js/src/jquery.fittext.js",
-		"/Users/bennovanassen/Desktop/responsive-nav.js-master/demos/advanced-left-navigation/index.html",
-		"/Users/bennovanassen/Desktop/responsive-nav.js-master/demos/multiple-navigations/index.html",
-		"/Users/bennovanassen/Documents/Study/CSS/Responsive/responsive-text-2/final/js/jquery.fittext.js",
-		"/Users/bennovanassen/Desktop/responsive-nav.js-master/demos/ie-support-using-respondjs/hamburger.gif",
-		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/img/img-aanbieding.jpg"
+		"/Users/bennovanassen/Desktop/responsive-nav.js-master/demos/advanced-left-navigation/styles.css"
 	],
 	"find":
 	{
-		"height": 80.0
+		"height": 94.0
 	},
 	"find_in_files":
 	{
@@ -330,6 +334,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"width",
+			"ftpush",
+			"absolute",
+			"icon-check",
+			"em",
+			"PADDING",
+			"ftpush",
 			"text-deco",
 			"hover",
 			"orange",
@@ -414,11 +425,39 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "dev/scss/modules/_button.scss",
+					"settings":
+					{
+						"buffer_size": 3434,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2159,
+								2159
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"file": "dev/js/jquery.bxslider.start.js",
 					"settings":
 					{
@@ -445,45 +484,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"settings":
-					{
-						"buffer_size": 5517,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								5517
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 2,
-					"file": "dev/php/templates/page.php",
+					"file": "dev/php/templates/template-home.php",
 					"settings":
 					{
-						"buffer_size": 453,
+						"buffer_size": 4136,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								62,
-								62
+								2332,
+								2332
 							]
 						],
 						"settings":
@@ -499,46 +512,45 @@
 				},
 				{
 					"buffer": 3,
-					"file": "dev/scss/modules/_table.scss",
+					"file": "dev/scss/modules/_usp.scss",
 					"settings":
 					{
-						"buffer_size": 1621,
+						"buffer_size": 1541,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								568,
-								568
+								515,
+								540
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 277.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "dev/scss/modules/_home.scss",
+					"file": "dev/scss/modules/_slider.scss",
 					"settings":
 					{
-						"buffer_size": 756,
+						"buffer_size": 1816,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								492,
-								492
+								1459,
+								1459
 							]
 						],
 						"settings":
@@ -547,25 +559,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1274.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "dev/scss/global.scss",
+					"file": "dev/scss/modules/_logo.scss",
 					"settings":
 					{
-						"buffer_size": 1772,
+						"buffer_size": 1389,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1677,
-								1677
+								523,
+								523
 							]
 						],
 						"settings":
@@ -575,57 +587,59 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 921.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "dev/scss/modules/_footer.scss",
-					"settings":
-					{
-						"buffer_size": 368,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								368,
-								368
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "dev/scss/core/_settings.scss",
+					"buffer": 6,
+					"file": "dev/php/templates/header.php",
 					"settings":
 					{
-						"buffer_size": 984,
+						"buffer_size": 4782,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								556,
-								560
+								2915,
+								2915
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 306.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "dev/scss/modules/_home.scss",
+					"settings":
+					{
+						"buffer_size": 928,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								439,
+								439
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -635,54 +649,28 @@
 				},
 				{
 					"buffer": 8,
-					"file": "dev/php/templates/contact.php",
+					"file": "dev/scss/global.scss",
 					"settings":
 					{
-						"buffer_size": 1723,
+						"buffer_size": 2217,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1199,
-								1199
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "dev/scss/modules/_usp.scss",
-					"settings":
-					{
-						"buffer_size": 755,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								753,
-								753
+								1772,
+								1772
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 54.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
