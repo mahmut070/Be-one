@@ -47,42 +47,35 @@ Template Name: Home template
 <div class="Usp-under">
 	<div class="u-gridContainer">
 		<div class="Usp-block">
-			<a href="/contact">
-				<svg class="Icon Icon--usp" viewBox="0 0 128 128">
-				<use xlink:href="#icon-user"></use>
-				</svg>
+				<div class="Usp-big-icon">
+					<img src="/files/2014/06/eyewhitebig.png"></img>
+				</div>
 				<div class="Usp-small-icon">
-					<img src="/files/2014/06/eyewhite.png"></img>
+					<img src="/files/2014/06/eyewhite.png"></img> 
 				</div>
 				<h4 class="Usp-title">Persoonlijke instructeur</h3>
 				<p>Kies een pakket en je krijgt bij Be-One een persoonlijke instructeur tijdens de opleiding</p>
-				<!-- <div class="Button--usp">Meer info</div> -->
-				<p class="Usp-link">Meer info</p>
-			</a>
-		</div>
+				<a href="/contact"><p class="Usp-link">Meer info</p></a>
+		</div> 
 
 		<div class="Usp-block">
-			<a href="/praktijkexamen">
-			<svg class="Icon Icon--usp" viewBox="0 0 128 128">
-			<use xlink:href="#icon-key"></use>
-			</svg>
+			<div class="Usp-big-icon">
+					<img src="/files/2014/06/keywhitebig.png"></img>
+			</div>
 			<div class="Usp-small-icon">
 				<img src="/files/2014/06/keywhite.png"></img>
 
 			</div>
 			<h4 class="Usp-title">Rijexamen</h3>
-			<p>Bij Be-One vragen wij pas het rijexamen aan wanneer we er zeker van zijn dat de leerling 
+			<a href="/praktijkexamen"><p>Bij Be-One vragen wij pas het rijexamen aan wanneer we er zeker van zijn dat de leerling 
 				alles beheerst. Hierdoor is de kans hoog dat het rijbewijs in een keer wordt behaald </p>
-				<p class="Usp-link"> Meer info</p>
-			</a>
-			<!-- <div class="Button--usp">Meer info</div> -->
+				<p class="Usp-link"> Meer info</p></a>
 		</div>
 
 		<div class="Usp-block">
-			<a href="/tarieven">
-			<svg class="Icon Icon--usp" viewBox="0 0 128 128">
-			<use xlink:href="#icon-users"></use>
-			</svg>
+			<div class="Usp-big-icon">
+					<img src="/files/2014/06/cardwhitebig.png"></img>
+			</div>
 			<div class="Usp-small-icon">
 				<img src="/files/2014/06/cardwhite.png"></img>
 			</div>
@@ -90,9 +83,7 @@ Template Name: Home template
 			<h4 class="Usp-title">Passend pakket</h3>
 			<p>Bij Be-One kijken wij naar alles tijdens de introductieles. Elke leerling krijgt een 
 				passend pakket aangemeten, waardoor het rijbewijs het snelste behaald wordt</p>
-			</a>
-			<!-- <div class="Button--usp">Meer info</div> -->
-				<p class="Usp-link"> Meer info</p>
+				<a href="/tarieven"><p class="Usp-link"> Meer info</p></a>
 		</div>
 		<div class="Facebook">
 			<div class="u-gridContainer">

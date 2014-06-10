@@ -9,6 +9,10 @@
   font-size: 12px;
   text-align: center;
   display: inline-block;
+  margin-top: 1em;
+  @media screen and (max-width : 980px) {
+  margin-top: 0;
+  }
   // margin-left: 1.5em;
 }
 

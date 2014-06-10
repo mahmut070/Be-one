@@ -5,7 +5,15 @@
 		[
 			[
 				"text",
-				"text-decoration"
+				"text-align"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"paddin",
+				"padding-right"
 			],
 			[
 				"margin",
@@ -83,7 +91,7 @@
 			"file": "dev/scss/modules/_home.scss",
 			"settings":
 			{
-				"buffer_size": 1224,
+				"buffer_size": 1227,
 				"line_ending": "Unix"
 			}
 		},
@@ -104,18 +112,10 @@
 			}
 		},
 		{
-			"file": "dev/php/templates/header.php",
-			"settings":
-			{
-				"buffer_size": 5057,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "dev/scss/core/_utilities.scss",
 			"settings":
 			{
-				"buffer_size": 2011,
+				"buffer_size": 2012,
 				"line_ending": "Unix"
 			}
 		},
@@ -123,7 +123,7 @@
 			"file": "dev/scss/modules/_navigation.scss",
 			"settings":
 			{
-				"buffer_size": 2025,
+				"buffer_size": 2214,
 				"line_ending": "Unix"
 			}
 		},
@@ -131,15 +131,31 @@
 			"file": "dev/php/templates/template-home.php",
 			"settings":
 			{
-				"buffer_size": 4445,
+				"buffer_size": 4236,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "dev/php/templates/prijzen.php",
+			"file": "dev/scss/modules/_usp.scss",
 			"settings":
 			{
-				"buffer_size": 4900,
+				"buffer_size": 1858,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/scss/modules/_logo.scss",
+			"settings":
+			{
+				"buffer_size": 1462,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/scss/modules/_slider.scss",
+			"settings":
+			{
+				"buffer_size": 2013,
 				"line_ending": "Unix"
 			}
 		}
@@ -180,8 +196,9 @@
 	},
 	"file_history":
 	[
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_table.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/prijzen.php",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/header.php",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_table.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_footer.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/contact.php",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_contact.scss",
@@ -215,7 +232,6 @@
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/util/grunt/autoprefixer.js",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_price.scss",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_button.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/prijzen.php",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_header.scss",
 		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/php/header.php",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/page.php",
@@ -420,7 +436,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -428,15 +444,15 @@
 					"file": "dev/scss/modules/_home.scss",
 					"settings":
 					{
-						"buffer_size": 1224,
+						"buffer_size": 1227,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								285,
-								295
+								575,
+								575
 							]
 						],
 						"settings":
@@ -445,7 +461,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 97.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -462,8 +478,8 @@
 						"selection":
 						[
 							[
-								528,
-								534
+								504,
+								510
 							]
 						],
 						"settings":
@@ -506,46 +522,46 @@
 				},
 				{
 					"buffer": 3,
-					"file": "dev/php/templates/header.php",
+					"file": "dev/scss/core/_utilities.scss",
 					"settings":
 					{
-						"buffer_size": 5057,
+						"buffer_size": 2012,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2381,
-								2381
+								301,
+								301
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 653.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "dev/scss/core/_utilities.scss",
+					"file": "dev/scss/modules/_navigation.scss",
 					"settings":
 					{
-						"buffer_size": 2011,
+						"buffer_size": 2214,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								395,
+								395
 							]
 						],
 						"settings":
@@ -555,25 +571,79 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 179.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "dev/scss/modules/_navigation.scss",
+					"file": "dev/php/templates/template-home.php",
 					"settings":
 					{
-						"buffer_size": 2025,
+						"buffer_size": 4236,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1021,
-								1021
+								2859,
+								2859
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 919.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "dev/scss/modules/_usp.scss",
+					"settings":
+					{
+						"buffer_size": 1858,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1832,
+								1832
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1763.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "dev/scss/modules/_logo.scss",
+					"settings":
+					{
+						"buffer_size": 1462,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								361,
+								361
 							]
 						],
 						"settings":
@@ -583,61 +653,34 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 628.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "dev/php/templates/template-home.php",
+					"buffer": 8,
+					"file": "dev/scss/modules/_slider.scss",
 					"settings":
 					{
-						"buffer_size": 4445,
+						"buffer_size": 2013,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1051,
-								1028
+								1482,
+								1482
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 171.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "dev/php/templates/prijzen.php",
-					"settings":
-					{
-						"buffer_size": 4900,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1331,
-								1331
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 225.0,
+						"translation.y": 1472.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -724,7 +767,7 @@
 		[
 			[
 				"",
-				"/Users/bennovanassen/Desktop/Projects/Sublime/honders.sublime-project"
+				"/Users/bennovanassen/Desktop/Projects/Sublime/rijschoolcompleet.sublime-project"
 			]
 		],
 		"width": 380.0
