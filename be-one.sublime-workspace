@@ -88,50 +88,69 @@
 	"buffers":
 	[
 		{
-			"file": "dev/scss/modules/_home.scss",
+			"contents": "// *************************************\n//\n// Global.scss\n// -> Slate v0.1.0\n//\n// *************************************\n\n// -------------------------------------\n// Libs\n// -------------------------------------\n\n// ----- Reset ----- //\n@import \"../../lib/scss/normalize/normalize\";\n\n// ----- Bourbon ----- //\n@import \"../../lib/scss/bourbon/bourbon\";\n\n// ----- Bourbon Neat ----- //\n@import \"../../lib/scss/neat/neat\";\n\n// ----- Native wordpress styles ----- //\n@import \"../../lib/scss/wp/wp\";\n\n// ----- Override ----- //\n@import \"../../lib/scss/libs-override\";\n\n// -------------------------------------\n// Core\n// -------------------------------------\n\n// ----- Helpers ----- //\n@import \"core/helpers\";\n\n// ----- Settings ----- //\n@import \"core/settings\";\n\n// ----- Base ----- //\n@import \"core/base\";\n\n// ----- Content ----- //\n@import \"core/utilities\";\n\n// -------------------------------------\n// Modules\n// -------------------------------------\n\n@import \"modules/article\";\n\n@import \"modules/button\";\n\n@import \"modules/equalheight\";\n\n@import \"modules/header\";\n\n@import \"modules/icon\";\n\n@import \"modules/logo\";\n\n@import \"modules/navigation\";\n\n@import \"modules/slider\";\n\n@import \"modules/usp\";\n\n@import \"modules/price\";\n\n@import \"modules/contact\";\n\n@import \"modules/home\";\n\n@import \"modules/footer\";\n\n@import \"modules/table\";\n\n// -------------------------------------\n// Inbox\n// -------------------------------------\n\ndiv.u-gridColumn6:nth-child(2) > ul:nth-child(1),\ndiv.u-gridColumn6:nth-child(3) > ul:nth-child(1){\n	text-align: left;\n}\n\n\n\n\n.Facebook{\n  background-color: $c-white;\n  @include span-columns(4);\n  // border-top: 5px solid $c-blue;\n  // border-bottom: 5px solid $c-blue;\n  padding-top: 10px;\n  @media screen and (max-width: 980px) {\n    @include span-columns(12);\n    // height: 13em;\n    // height: 0px;\n\n  }\n}\n\n.app-image{\n  // height: 11em;\n  display:inline-block;\n    width: 225px; \n    height: 225px; \n}\n\n.app-google-image{\n  // height: 11em;\n  display:inline-block;\n    width: 300px; \n    height: 97px; \n}\n\n.app-images{\n    width: 150px;\n    float: left;\n    padding-left: 20px;\n    font-family: Arial, Helvetica, sans-serif;\n    font-size: 12px;\n    color: #333333;\n    padding-top: 20px;\n    padding-right: 20px; \n}\n\n#post-4 > div:nth-child(1) > p:nth-child(2){\n  @media screen and (max-width: 980px) {\n  font-size: 12px;\n  line-height: 19px;\n  }\n}\n\n.Phone{\n  max-width: 39%;\n  float: left;\n}\n\n",
+			"file": "dev/scss/global.scss",
+			"file_size": 2422,
+			"file_write_time": 1402486186000000,
 			"settings":
 			{
-				"buffer_size": 1227,
+				"buffer_size": 2422,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "dev/scss/core/_settings.scss",
+			"file": "dev/scss/modules/_slider.scss",
 			"settings":
 			{
-				"buffer_size": 1026,
+				"buffer_size": 2032,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "dev/scss/modules/_header.scss",
+			"file": "util/grunt/watch.js",
 			"settings":
 			{
-				"buffer_size": 1420,
+				"buffer_size": 1022,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "dev/scss/core/_utilities.scss",
+			"file": "util/grunt/imagemin.js",
 			"settings":
 			{
-				"buffer_size": 2012,
+				"buffer_size": 294,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "dev/scss/modules/_navigation.scss",
+			"file": "Gruntfile.js",
 			"settings":
 			{
-				"buffer_size": 2214,
+				"buffer_size": 2300,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/php/templates/contact.php",
+			"settings":
+			{
+				"buffer_size": 1774,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "dev/php/templates/template-home.php",
+			"file": "dev/scss/modules/_contact.scss",
 			"settings":
 			{
-				"buffer_size": 4236,
+				"buffer_size": 280,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/php/templates/single.php",
+			"settings":
+			{
+				"buffer_size": 708,
 				"line_ending": "Unix"
 			}
 		},
@@ -140,22 +159,6 @@
 			"settings":
 			{
 				"buffer_size": 1858,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dev/scss/modules/_logo.scss",
-			"settings":
-			{
-				"buffer_size": 1462,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dev/scss/modules/_slider.scss",
-			"settings":
-			{
-				"buffer_size": 2013,
 				"line_ending": "Unix"
 			}
 		}
@@ -196,6 +199,18 @@
 	},
 	"file_history":
 	[
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/util/grunt/rsync.js",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/core/_base.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/js/jquery.bxslider.js",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_slider.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_logo.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_usp.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/template-home.php",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_navigation.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/core/_utilities.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_header.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/core/_settings.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_home.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/prijzen.php",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/header.php",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_table.scss",
@@ -203,24 +218,13 @@
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/contact.php",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_contact.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/global.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_usp.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/template-home.php",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_header.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_slider.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_button.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/js/jquery.bxslider.js",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/js/ga.js",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_home.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/core/_settings.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_icon.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/js/jquery.bxslider.start.js",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/header.php",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_logo.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/util/grunt/rsync.js",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/includes/navigation-walker.php",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/js/nav-collapse.js",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/core/_base.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_navigation.scss",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/js/src/nav-collapse.js",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/util/grunt/ftpush.js",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/Gruntfile.js",
@@ -247,7 +251,6 @@
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/js/prepend-svg.js",
 		"/Users/bennovanassen/Desktop/Projects/Honders/slate_honders/dev/php/templates/header.php",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/functions.php",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/core/_utilities.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/README.md",
 		"/Users/bennovanassen/Desktop/Projects/Honders/slate_honders/README.md",
 		"/Users/bennovanassen/Desktop/Projects/Honders/slate_honders/dev/scss/modules/_header.scss",
@@ -342,6 +345,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"909px",
+			"bx-viewport",
+			"height",
+			"deploy",
+			"ftpush",
 			"15",
 			"contactbar",
 			"small",
@@ -436,55 +444,57 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 8,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "dev/scss/modules/_home.scss",
+					"file": "dev/scss/global.scss",
 					"settings":
 					{
-						"buffer_size": 1227,
+						"buffer_size": 2422,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								575,
-								575
+								2172,
+								2172
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 97.0,
+						"translation.y": 507.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "dev/scss/core/_settings.scss",
+					"file": "dev/scss/modules/_slider.scss",
 					"settings":
 					{
-						"buffer_size": 1026,
+						"buffer_size": 2032,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								504,
-								510
+								109,
+								109
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -494,53 +504,51 @@
 				},
 				{
 					"buffer": 2,
-					"file": "dev/scss/modules/_header.scss",
+					"file": "util/grunt/watch.js",
 					"settings":
 					{
-						"buffer_size": 1420,
+						"buffer_size": 1022,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								929,
-								929
+								612,
+								612
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 343.0,
+						"translation.y": 53.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "dev/scss/core/_utilities.scss",
+					"file": "util/grunt/imagemin.js",
 					"settings":
 					{
-						"buffer_size": 2012,
+						"buffer_size": 294,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								301,
-								301
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -550,18 +558,73 @@
 				},
 				{
 					"buffer": 4,
-					"file": "dev/scss/modules/_navigation.scss",
+					"file": "Gruntfile.js",
 					"settings":
 					{
-						"buffer_size": 2214,
+						"buffer_size": 2300,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								395,
-								395
+								2222,
+								2222
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 202.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "dev/php/templates/contact.php",
+					"settings":
+					{
+						"buffer_size": 1774,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								666,
+								666
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "dev/scss/modules/_contact.scss",
+					"settings":
+					{
+						"buffer_size": 280,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								211,
+								211
 							]
 						],
 						"settings":
@@ -577,19 +640,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "dev/php/templates/template-home.php",
+					"buffer": 7,
+					"file": "dev/php/templates/single.php",
 					"settings":
 					{
-						"buffer_size": 4236,
+						"buffer_size": 708,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2859,
-								2859
+								0,
+								0
 							]
 						],
 						"settings":
@@ -598,13 +661,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 919.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "dev/scss/modules/_usp.scss",
 					"settings":
 					{
@@ -615,8 +678,8 @@
 						"selection":
 						[
 							[
-								1832,
-								1832
+								1115,
+								1115
 							]
 						],
 						"settings":
@@ -625,62 +688,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1763.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "dev/scss/modules/_logo.scss",
-					"settings":
-					{
-						"buffer_size": 1462,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								361,
-								361
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "dev/scss/modules/_slider.scss",
-					"settings":
-					{
-						"buffer_size": 2013,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1482,
-								1482
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1472.0,
+						"translation.y": 462.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

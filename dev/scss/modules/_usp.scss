@@ -6,6 +6,14 @@
 	background-color: $c-gray;
 }
 
+.Usp-wrap{
+	 list-style-type: square;
+	text-align: center;
+	// font-weight: 600;
+	color: $c-darkblue;
+	background-color: $c-white;
+}
+
 .Usp-text{
 	padding-top: 2rem;
 	font-size: 1.5625rem;
@@ -80,6 +88,18 @@
 ul.Usp{
 	margin-left: 1.5em;
 	line-height: 2em;
+	@media screen and (max-width: 980px) {
+		margin: 0;
+		margin-left: 1em;
+	}
+
+}
+
+ul.Usp2{
+	margin-left: 47em;
+	line-height: 2em;
+	text-align: left;
+	width: 21em;
 	@media screen and (max-width: 980px) {
 		margin: 0;
 		margin-left: 1em;
