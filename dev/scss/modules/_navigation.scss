@@ -64,7 +64,7 @@
   text-transform: uppercase;
   color: $c-darkblue; 
   font-size: 1em; 
-  font-weight: 600;
+  font-weight: bold !important;
   padding: 10px 13px;
   
   @media screen and (max-width : 980px) {
@@ -89,7 +89,7 @@
 
 }
 
-.Navigation-link--invertedBold {
+.Navigation-link--invertedBold { 
   color: $c-white; 
   font-weight: bold;
 }

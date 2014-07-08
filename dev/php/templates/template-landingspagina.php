@@ -16,12 +16,7 @@ Template Name: Landingspagina template
 					<?php the_content(); ?>
 					<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 
-					
-		<div class="Facebook">
-			<div class="u-gridContainer">
-				<div class="fb-like-box" data-href="https://www.facebook.com/AutorijschoolBeOne" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false"></div>
-			</div>
-		</div>
+		
 	</div>
 
 	<?php endwhile; endif; ?>

@@ -126,7 +126,7 @@ div.u-gridColumn6:nth-child(3) > ul:nth-child(1){
 #post-4 > div:nth-child(1) > p:nth-child(2){
   @media screen and (max-width: 980px) {
   font-size: 12px;
-  line-height: 19px;
+  line-height: 19px; 
   }
 }
 
@@ -135,3 +135,6 @@ div.u-gridColumn6:nth-child(3) > ul:nth-child(1){
   float: left;
 }
 
+.entry-title{
+  color: red;
+}

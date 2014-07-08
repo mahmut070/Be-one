@@ -88,61 +88,13 @@
 	"buffers":
 	[
 		{
-			"contents": "// *************************************\n//\n// Global.scss\n// -> Slate v0.1.0\n//\n// *************************************\n\n// -------------------------------------\n// Libs\n// -------------------------------------\n\n// ----- Reset ----- //\n@import \"../../lib/scss/normalize/normalize\";\n\n// ----- Bourbon ----- //\n@import \"../../lib/scss/bourbon/bourbon\";\n\n// ----- Bourbon Neat ----- //\n@import \"../../lib/scss/neat/neat\";\n\n// ----- Native wordpress styles ----- //\n@import \"../../lib/scss/wp/wp\";\n\n// ----- Override ----- //\n@import \"../../lib/scss/libs-override\";\n\n// -------------------------------------\n// Core\n// -------------------------------------\n\n// ----- Helpers ----- //\n@import \"core/helpers\";\n\n// ----- Settings ----- //\n@import \"core/settings\";\n\n// ----- Base ----- //\n@import \"core/base\";\n\n// ----- Content ----- //\n@import \"core/utilities\";\n\n// -------------------------------------\n// Modules\n// -------------------------------------\n\n@import \"modules/article\";\n\n@import \"modules/button\";\n\n@import \"modules/equalheight\";\n\n@import \"modules/header\";\n\n@import \"modules/icon\";\n\n@import \"modules/logo\";\n\n@import \"modules/navigation\";\n\n@import \"modules/slider\";\n\n@import \"modules/usp\";\n\n@import \"modules/price\";\n\n@import \"modules/contact\";\n\n@import \"modules/home\";\n\n@import \"modules/footer\";\n\n@import \"modules/table\";\n\n// -------------------------------------\n// Inbox\n// -------------------------------------\n\ndiv.u-gridColumn6:nth-child(2) > ul:nth-child(1),\ndiv.u-gridColumn6:nth-child(3) > ul:nth-child(1){\n	text-align: left;\n}\n\n\n\n\n.Facebook{\n  background-color: $c-white;\n  @include span-columns(4);\n  // border-top: 5px solid $c-blue;\n  // border-bottom: 5px solid $c-blue;\n  padding-top: 10px;\n  @media screen and (max-width: 980px) {\n    @include span-columns(12);\n    // height: 13em;\n    // height: 0px;\n\n  }\n}\n\n.app-image{\n  // height: 11em;\n  display:inline-block;\n    width: 225px; \n    height: 225px; \n}\n\n.app-google-image{\n  // height: 11em;\n  display:inline-block;\n    width: 300px; \n    height: 97px; \n}\n\n.app-images{\n    width: 150px;\n    float: left;\n    padding-left: 20px;\n    font-family: Arial, Helvetica, sans-serif;\n    font-size: 12px;\n    color: #333333;\n    padding-top: 20px;\n    padding-right: 20px; \n}\n\n#post-4 > div:nth-child(1) > p:nth-child(2){\n  @media screen and (max-width: 980px) {\n  font-size: 12px;\n  line-height: 19px;\n  }\n}\n\n.Phone{\n  max-width: 39%;\n  float: left;\n}\n\n",
+			"contents": "// *************************************\n//\n// Global.scss\n// -> Slate v0.1.0\n//\n// *************************************\n\n// -------------------------------------\n// Libs\n// -------------------------------------\n\n// ----- Reset ----- //\n@import \"../../lib/scss/normalize/normalize\";\n\n// ----- Bourbon ----- //\n@import \"../../lib/scss/bourbon/bourbon\";\n\n// ----- Bourbon Neat ----- //\n@import \"../../lib/scss/neat/neat\";\n\n// ----- Native wordpress styles ----- //\n@import \"../../lib/scss/wp/wp\";\n\n// ----- Override ----- //\n@import \"../../lib/scss/libs-override\";\n\n// -------------------------------------\n// Core\n// -------------------------------------\n\n// ----- Helpers ----- //\n@import \"core/helpers\";\n\n// ----- Settings ----- //\n@import \"core/settings\";\n\n// ----- Base ----- //\n@import \"core/base\";\n\n// ----- Content ----- //\n@import \"core/utilities\";\n\n// -------------------------------------\n// Modules\n// -------------------------------------\n\n@import \"modules/article\";\n\n@import \"modules/button\";\n\n@import \"modules/equalheight\";\n\n@import \"modules/header\";\n\n@import \"modules/icon\";\n\n@import \"modules/logo\";\n\n@import \"modules/navigation\";\n\n@import \"modules/slider\";\n\n@import \"modules/usp\";\n\n@import \"modules/price\";\n\n@import \"modules/contact\";\n\n@import \"modules/home\";\n\n@import \"modules/footer\";\n\n@import \"modules/table\";\n\n// -------------------------------------\n// Inbox\n// -------------------------------------\n\ndiv.u-gridColumn6:nth-child(2) > ul:nth-child(1),\ndiv.u-gridColumn6:nth-child(3) > ul:nth-child(1){\n	text-align: left;\n}\n\n\n\n\n.Facebook{\n  background-color: $c-white;\n  @include span-columns(4);\n  // border-top: 5px solid $c-blue;\n  // border-bottom: 5px solid $c-blue;\n  padding-top: 10px;\n  @media screen and (max-width: 980px) {\n    @include span-columns(12);\n    // height: 13em;\n    // height: 0px;\n\n  }\n}\n\n.app-image{\n  // height: 11em;\n  display:inline-block;\n    width: 225px; \n    height: 225px; \n}\n\n.app-google-image{\n  // height: 11em;\n  display:inline-block;\n    width: 300px; \n    height: 97px; \n}\n\n.app-images{\n    width: 150px;\n    float: left;\n    padding-left: 20px;\n    font-family: Arial, Helvetica, sans-serif;\n    font-size: 12px;\n    color: #333333;\n    padding-top: 20px;\n    padding-right: 20px; \n}\n\n#post-4 > div:nth-child(1) > p:nth-child(2){\n  @media screen and (max-width: 980px) {\n  font-size: 12px;\n  line-height: 19px; \n  }\n}\n\n.Phone{\n  max-width: 39%;\n  float: left;\n}\n\n\n",
 			"file": "dev/scss/global.scss",
-			"file_size": 2422,
-			"file_write_time": 1402486186000000,
+			"file_size": 2453,
+			"file_write_time": 1404826332000000,
 			"settings":
 			{
-				"buffer_size": 2422,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dev/scss/modules/_slider.scss",
-			"settings":
-			{
-				"buffer_size": 2032,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "util/grunt/watch.js",
-			"settings":
-			{
-				"buffer_size": 1022,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "util/grunt/imagemin.js",
-			"settings":
-			{
-				"buffer_size": 294,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Gruntfile.js",
-			"settings":
-			{
-				"buffer_size": 2300,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dev/php/templates/contact.php",
-			"settings":
-			{
-				"buffer_size": 1774,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dev/scss/modules/_contact.scss",
-			"settings":
-			{
-				"buffer_size": 280,
+				"buffer_size": 2424,
 				"line_ending": "Unix"
 			}
 		},
@@ -158,7 +110,66 @@
 			"file": "dev/scss/modules/_usp.scss",
 			"settings":
 			{
-				"buffer_size": 1858,
+				"buffer_size": 2153,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/php/templates/template-home.php",
+			"settings":
+			{
+				"buffer_size": 4236,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/php/templates/header.php",
+			"settings":
+			{
+				"buffer_size": 5057,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/scss/modules/_home.scss",
+			"settings":
+			{
+				"buffer_size": 2028,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/php/templates/footer.php",
+			"settings":
+			{
+				"buffer_size": 1247,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "// *************************************\n//\n// Navigation\n// -> Reusable navigation module\n//\n// *************************************\n\n.Navigation {\n  font-size: 12px;\n  text-align: center;\n  display: inline-block;\n  margin-top: 1em;\n  @media screen and (max-width : 980px) {\n  margin-top: 0;\n  }\n  // margin-left: 1.5em;\n}\n\n// -------------------------------------\n// Module specific variables\n// -------------------------------------\n\n// Module-variableName\n\n// -------------------------------------\n// Modifiers\n// -------------------------------------\n\n// -------------------------------------\n// States\n// -------------------------------------\n\n.Navigation-link.is-active {\n  // text-decoration: underline;\n  background: rgba($c-blue, 0.8);\n  color: $c-white;\n}\n\n// -------------------------------------\n// Context\n// -------------------------------------\n\n// .has-module\n\n// -------------------------------------\n// Submodules\n// -------------------------------------\n\n// ----- List item ----- //\n.Navigation-listItem {\n  display: inline;\n  // margin: 0 rem(15px);\n  &:first-of-type {\n    margin-left: 0;\n  }\n  &:last-of-type {\n    margin-right: 0;\n  }\n}\n\n// ----- Navigation link ----- //\n\n.Navigation-link {\n  text-transform: uppercase;\n  color: $c-darkblue; \n  font-size: 1em; \n  font-weight: bold !important;\n  padding: 10px 13px;\n  \n  @media screen and (max-width : 980px) {\n  display: block; \n  border: 1px solid $c-blue; \n  width: 21em;\n  font-size: 12px;\n  }\n\n  cursor: pointer;\n  -webkit-duration: .3s;\n  -moz-duration: .3s;\n  -o-duration: .3s;\n  transition-duration: .3s;\n\n  &:hover{\n    // background: $c-lightyellow;\n   background: rgba($c-blue, 0.8);\n   color: $c-white;\n   text-decoration: none;\n   }\n\n}\n\n.Navigation-link--invertedBold {  \n  color: $c-white; \n  font-weight: bold;\n}\n \n.Navigation-img{\n  // top: 2.5rem;\n}\n\n\n\n// .Navigation-menuToggle{\n\n//   @include media(980px){\n//     display: none;\n//   }\n// }\n.Navigation-menuToggle {\n  font-size: 4em;\n  margin: auto;\n  display: block;\n  @media screen and (min-width : 980px) {\n  display: none;\n  }\n}\n\n.Navigation-list.is-hidden {\n  display: none;\n}\n\n\n.Navigation-list--parent {\n  display: none;\n  @include media(780px) {\n    display: block;\n  }\n}\n\n\n\n",
+			"file": "dev/scss/modules/_navigation.scss",
+			"file_size": 2227,
+			"file_write_time": 1404825501000000,
+			"settings":
+			{
+				"buffer_size": 2228,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/php/includes/navigation-walker.php",
+			"settings":
+			{
+				"buffer_size": 4679,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-home.php",
+			"settings":
+			{
+				"buffer_size": 6484,
 				"line_ending": "Unix"
 			}
 		}
@@ -199,10 +210,18 @@
 	},
 	"file_history":
 	[
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-landingspagina.php",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/template-landingspagina.php",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-home.php",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_contact.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/contact.php",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/Gruntfile.js",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/util/grunt/imagemin.js",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/util/grunt/watch.js",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_slider.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/util/grunt/rsync.js",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/core/_base.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/js/jquery.bxslider.js",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_slider.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_logo.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_usp.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/template-home.php",
@@ -215,8 +234,6 @@
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/header.php",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_table.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_footer.scss",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/contact.php",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_contact.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/global.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_button.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/js/ga.js",
@@ -227,8 +244,6 @@
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/js/nav-collapse.js",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/js/src/nav-collapse.js",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/util/grunt/ftpush.js",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/Gruntfile.js",
-		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/util/grunt/watch.js",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/be-one.sublime-project",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_icon.scss",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_navigation.scss",
@@ -244,7 +259,6 @@
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_table.scss",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/php/templates/index.php",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_slider.scss",
-		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-home.php",
 		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/modules/_customers.scss",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/js/src/jquery.bxslider.js",
 		"/Users/bennovanassen/Desktop/Projects/Honders/slate_honders/dev/php/templates/template-home.php",
@@ -323,10 +337,7 @@
 		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/php/template-overons.php",
 		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/.ftppass",
 		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/php/template-fullwidth.php",
-		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/php/template-24uur.php",
-		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_offer.scss",
-		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/libs/responsive-nav/_responsive-nav.scss",
-		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/core/_base.scss"
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/php/template-24uur.php"
 	],
 	"find":
 	{
@@ -345,6 +356,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"600",
 			"909px",
 			"bx-viewport",
 			"height",
@@ -444,7 +456,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -452,15 +464,15 @@
 					"file": "dev/scss/global.scss",
 					"settings":
 					{
-						"buffer_size": 2422,
+						"buffer_size": 2424,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2172,
-								2172
+								2423,
+								2423
 							]
 						],
 						"settings":
@@ -470,177 +482,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 507.0,
+						"translation.y": 1661.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "dev/scss/modules/_slider.scss",
-					"settings":
-					{
-						"buffer_size": 2032,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								109,
-								109
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "util/grunt/watch.js",
-					"settings":
-					{
-						"buffer_size": 1022,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								612,
-								612
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 53.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "util/grunt/imagemin.js",
-					"settings":
-					{
-						"buffer_size": 294,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "Gruntfile.js",
-					"settings":
-					{
-						"buffer_size": 2300,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2222,
-								2222
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 202.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "dev/php/templates/contact.php",
-					"settings":
-					{
-						"buffer_size": 1774,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								666,
-								666
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "dev/scss/modules/_contact.scss",
-					"settings":
-					{
-						"buffer_size": 280,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								211,
-								211
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
 					"file": "dev/php/templates/single.php",
 					"settings":
 					{
@@ -667,19 +515,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 2,
 					"file": "dev/scss/modules/_usp.scss",
 					"settings":
 					{
-						"buffer_size": 1858,
+						"buffer_size": 2153,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1115,
-								1115
+								1543,
+								1543
 							]
 						],
 						"settings":
@@ -688,7 +536,198 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 462.0,
+						"translation.y": 2009.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "dev/php/templates/template-home.php",
+					"settings":
+					{
+						"buffer_size": 4236,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								497,
+								497
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "dev/php/templates/header.php",
+					"settings":
+					{
+						"buffer_size": 5057,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2828,
+								2560
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 731.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "dev/scss/modules/_home.scss",
+					"settings":
+					{
+						"buffer_size": 2028,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1496,
+								1496
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "dev/php/templates/footer.php",
+					"settings":
+					{
+						"buffer_size": 1247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								365,
+								365
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "dev/scss/modules/_navigation.scss",
+					"settings":
+					{
+						"buffer_size": 2228,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1760,
+								1760
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1049.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "dev/php/includes/navigation-walker.php",
+					"settings":
+					{
+						"buffer_size": 4679,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3910,
+								3910
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 3.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-home.php",
+					"settings":
+					{
+						"buffer_size": 6484,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2023.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -775,7 +814,7 @@
 		[
 			[
 				"",
-				"/Users/bennovanassen/Desktop/Projects/Sublime/rijschoolcompleet.sublime-project"
+				"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/templates/zeister.sublime-project"
 			]
 		],
 		"width": 380.0

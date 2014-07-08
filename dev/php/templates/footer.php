@@ -11,7 +11,7 @@
 			</div>
 
 		</div>
-			<p class="Footer-text">&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Webshop en SEO door <a href="http://www.lokaalgevonden.nl" target="_blank">LokaalGevonden.nl</a> - <a href="/algemene-voorwaarden/">Algemene voorwaarden</a> - <a href="/privacy-beleid">Privacy beleid</a></p>
+			<p class="Footer-text">&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Website en SEO door <a href="http://www.lokaalgevonden.nl" target="_blank">LokaalGevonden.nl</a> - <a href="/algemene-voorwaarden/">Algemene voorwaarden</a> - <a href="/privacy-beleid">Privacy beleid</a></p>
 	
 	</div>
 
