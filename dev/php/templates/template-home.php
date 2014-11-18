@@ -25,16 +25,16 @@ Template Name: Home template
 		<p class="Usp-text">Autorijschool Be-One voldoet aan deze eisen:</p>
 		<div class="u-gridColumn6">
 			<ul class="Usp">
-				<li class="icon-check">Voordelige rijlessen</li>
-				<li class="icon-check">Iedere leerling is uniek en krijgt <br>een aanpak die voor hem / haar werkt </li>
-				<li class="icon-check">Uitdagende lessen</li>
-				<li class="icon-check">Kwaliteit en service op maat</li>
+				<li class="icon-check">Betaling in termijnen mogelijk</li>
+				<li class="icon-check">Nu Rijles vanaf 16,5 jaar</li>
+				<li class="icon-check">Vaste rij-instructeur</li>
+				<li class="icon-check">Flexibele lestijden ook in de avonden en weekend -voordelige rijlessen</li>
 			</ul>
 		</div>
 		
 		<div class="u-gridColumn6">
 			<ul class="Usp">
-				<li class="icon-check">Unieke en zeer effectieve benadering in faalangst</li>
+				<li class="icon-check">Spoed opleidingen op maat -ervaring in het begeleiden van Faalangstig leerlingen</li>
 				<li class="icon-check">Rijlessen ook 'savonds en in het weekend</li>
 				<li class="icon-check">Vaste rij- instructeur</li>
 				<li class="icon-check">Betaling in termijnen mogelijk</li>
